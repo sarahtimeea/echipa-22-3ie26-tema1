@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — AromaCraft Coffee</title>
+  <meta name="description" content="Contactează AromaCraft Coffee — trimite-ne un mesaj sau vizitează-ne la prăjitoria din București.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">Aroma<span>Craft</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Acasă</a></li>
+        <li><a href="despre.html">Despre Noi</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Deschide meniul">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="mobile-menu">
+      <a href="index.html">Acasă</a>
+      <a href="despre.html">Despre Noi</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Contact Header -->
+  <section class="contact-header section-padding">
+    <div class="container">
+      <h1>Contactează-ne</h1>
+      <p>Ai întrebări despre cafeaua noastră sau vrei să colaborăm? Trimite-ne un mesaj și îți răspundem în cel mai scurt timp.</p>
+    </div>
+  </section>
+
+  <!-- Contact Form + Info -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="contact-grid">
+        <div>
+          <form id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Nume *</label>
+                <input type="text" id="name" placeholder="Ion Popescu" maxlength="100">
+              </div>
+              <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" placeholder="ion@exemplu.ro" maxlength="255">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subiect</label>
+              <input type="text" id="subject" placeholder="Despre ce vrei să discutăm?" maxlength="200">
+            </div>
+            <div class="form-group">
+              <label for="message">Mesaj *</label>
+              <textarea id="message" placeholder="Scrie mesajul tău aici..." maxlength="2000"></textarea>
+            </div>
+            <button type="submit" class="btn btn-accent btn-full">Trimite mesajul</button>
+          </form>
+        </div>
+
+        <aside>
+          <div class="contact-info-card">
+            <h3>Informații de Contact</h3>
+            <div class="info-row">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              <div>
+                <p class="info-label">Adresă</p>
+                <p class="info-value">Str. Cafelei Nr. 42, Sector 1, București</p>
+              </div>
+            </div>
+            <div class="info-row">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <div>
+                <p class="info-label">Telefon</p>
+                <p class="info-value">+40 721 234 567</p>
+              </div>
+            </div>
+            <div class="info-row">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              <div>
+                <p class="info-label">Email</p>
+                <p class="info-value">hello@aromacraft.ro</p>
+              </div>
+            </div>
+            <div class="info-row">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <div>
+                <p class="info-label">Program</p>
+                <p class="info-value">Lun–Vin: 08:00–18:00 | Sâm: 09:00–14:00</p>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container section-padding">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <p class="logo" style="margin-bottom: 0;">Aroma<span>Craft</span></p>
+          <p>Prăjim cu pasiune boabe de cafea selectate manual din cele mai bune plantații din lume, din 2015.</p>
+        </div>
+        <div>
+          <h4>Navigare</h4>
+          <nav class="footer-nav">
+            <a href="index.html">Acasă</a>
+            <a href="despre.html">Despre Noi</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul class="footer-contact">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              Str. Cafelei Nr. 42, București
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              +40 721 234 567
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              hello@aromacraft.ro
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 AromaCraft Coffee. Toate drepturile rezervate.</p>
+        <p>☕ Prăjit cu dragoste</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
